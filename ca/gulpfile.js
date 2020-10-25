@@ -37,7 +37,7 @@ function imgrs(cb) {
     cb();
 }
 function icons(cb) {
-    src(`${origin}/icons/*.svg`)
+    src(`${origin}/**/*.svg`)
     .pipe(dest(destination));
     cb();
 }
