@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content= "Torgeir Haugum">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.2">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<title>Re Cycle | Welcome</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="container" id="hamburger-container">
+				<a class="logo" href="index.html"><h1><span id="logo-span-re">Re</span>-<span id ="logo-span-cycle">Cycle</span></h1></a>
+
+				<input type="checkbox" id="hamburger" checked="checked">
+				<label class="labelHamburger" for ="hamburger" id="label-hamburger">&#9776;</label>
+				<label class="labelHamburger"for ="hamburger" id="label-exit">&#x2716;	</label>
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<input class="checkboxMenu"type="checkbox" id="menu-input-tourguide" checked="checked">
+						<label class="labelMenu" for ="menu-input-tourguide" id="menu-label-tourguide">Tour Guides</label>
+
+						<a id="menu-tourguide"href="tourguides.html">Tour Guides</a>
+
+						<ul class="hide">
+							<li><a href="tourguides.html" >Landvik Track</a></li>
+							<li><a href="tourguides.html#dømmesmoen">Dømmesmoen Sunshine</a></li>
+							<li><a href="tourguides.html#fjære">Fjære forgotten Road</a></li>
+							<li><a href="tourguides.html#marivold">Marivold the Creepy Bridge</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a class="active" href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<section id="contact">
+				<h3>Contact us!</h3>
+				<p>We are here to answer any questions you have about our service.</p>
+				<p class="hide">Reach out to us and we will respond as soon as we can!</p>
+
+
+				<form id="contact-form">
+					<section>
+						<input type="text" name="name" placeholder="Your Name">
+					</section>
+					<section>
+						<input type="text" name="email" placeholder="Email">
+					</section>
+					<section>
+						<textarea id="contact-texterea"></textarea>
+					</section>
+					<section>
+						<input class="buttons" type="submit" id="contact-submit" value="Send">
+					</section>
+				</form>
+				<div id="contact-info">
+					<section id="contact-info-phone">
+						<object class="icon" type="image/svg+xml" data="svg/phone.svg"></object>
+						<p>+4785749332</p>
+					</section>
+					<section id="contact-info-location">
+						<object class="icon" type="image/svg+xml" data="svg/location.svg"></object>
+						<p>4878 Grimstad <br>Fjonberget 35</p>
+					</section>
+					<section id="contact-info-mail">
+						<object class="icon" type="image/svg+xml" data="svg/mail.svg"></object>
+						<p>recycle@gmail.com</p>
+					</section>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footerCol">
+				<h2>Sign inn to our newsletter!</h2>
+
+				<input type="text" name="newsletter-text" id="newsletter-text" placeholder="Write your mail..."><br>
+				<input class="buttons" type="submit" id="newsletter-submit" value="Send">
+
+
+			</div>
+			<div class="footerCol">
+				<ul id="footer-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="tourguides.html">Tour Guides</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<p>&copy;Copyright 2018 All rights reserved</p>
+		</div>
+	</footer>
+	<script src="scripts/tour.js"></script>
+</body>
+</html>

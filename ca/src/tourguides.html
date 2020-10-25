@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content= "Torgeir Haugum">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.2">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<title>Re Cycle | Welcome</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="container" id="hamburger-container">
+				<a class="logo" href="index.html"><h1><span id="logo-span-re">Re</span>-<span id ="logo-span-cycle">Cycle</span></h1></a>
+
+				<input type="checkbox" id="hamburger" checked="checked">
+				<label class="labelHamburger" for ="hamburger" id="label-hamburger">&#9776;</label>
+				<label class="labelHamburger"for ="hamburger" id="label-exit">&#x2716;	</label>
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<input class="checkboxMenu"type="checkbox" id="menu-input-tourguide">
+						<label class="active" class="labelMenu" for ="menu-input-tourguide" id="menu-label-tourguide">Tour Guides</label>
+
+						<a  class="active" id="menu-tourguide"href="tourguides.html">Tour Guides</a>
+
+
+						<ul class="hide">
+							<li><a href="#lanvik"  >Landvik Track</a></li>
+							<li><a href="#dømmesmoen"  >Dømmesmoen Sunshine</a></li>
+							<li><a href="#fjære" >Fjære forgotten Road</a></li>
+							<li><a href="#marivold">Marivold the Creepy Bridge</a></li>
+						</ul>
+
+
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+
+
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<section class="tourGuides" id="lanvik">
+
+				<h3>Landvik Tracking</h3>
+				<div class="col1">
+					<img class="imgTour" src="images/landvik.jpg" alt="landvik tracking tourguides">
+
+				</div>
+				<div class="col2">
+					<section class=location>
+						<input type="checkbox" class="checkboxDropdown" id="lanvik-input-location" checked="checked">
+						<label class="labelTour" for ="lanvik-input-location" id="lanvik-label-location">Map of Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<iframe class="frameLocation hide "src="https://www.google.com/maps/embed?pb=!1m40!1m12!1m3!1d16750.401338978263!2d8.540855886714168!3d58.34617262632855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m25!3e1!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!4m5!1s0x4647f1e731fc3309%3A0xd867ef04ba3346bb!2sLandvik+Kirke%2C+Reddal%2C+Grimstad!3m2!1d58.341643499999996!2d8.522213899999999!4m5!1s0x4647ee02c3713c89%3A0xba0748cfae96eae2!2sRoresanden%2C+Grimstad!3m2!1d58.3514444!2d8.5372978!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!5e0!3m2!1sno!2sno!4v1541162309089" frameborder="0"  allowfullscreen></iframe>
+
+					</section>
+
+					<section class="tourInfo">
+						<input class="checkboxDropdown"type="checkbox" id="lanvik-input-info" checked="checked">
+						<label class="labelTour" for ="lanvik-input-info" id="lanvik-label-info">Tour Info <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li><b>Distance:</b> 16,7 km</li>
+							<li><b>Tour Available:</b>	Mondays</li>
+							<li><b>Type of Terrain:</b> Road</li>
+							<li><b>Difficulty level:</b> Easy</li>
+						</ul>
+					</section>
+					<section class="gear">
+						<input class="checkboxDropdown"type="checkbox" id="lanvik-input-gear" checked="checked">
+						<label class="labelTour" for ="lanvik-input-gear" id="lanvik-label-gear">Gear included <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li>Nakamura Road Bike</li>
+							<li>Helmet</li>
+							<li>Cyckling gloves</li>
+							<li>Water</li>
+							<li>Snack bar</li>
+						</ul>
+					</section>
+
+
+				</div>
+				<div class="col3">
+					<input class="checkboxDropdown"type="checkbox" id="lanvik-input-about" checked="checked">
+					<label class="labelTour" for ="lanvik-input-about" id="lanvik-label-about">About Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					</p>
+					<div class="listHighlights">
+						<ul>
+							<li><b>Duration:</b> 1hour 30min</li>
+							<li><b>Location:</b> Grimstad &#8644; Landvik </li>
+							<li><b>Price:</b> 200NOK</li>
+						</ul>
+						<input class="buttons" type="submit" value="BOOK" id="button-book">
+					</div>
+				</div>
+			</section>
+			<section class="tourGuides" id="dømmesmoen">
+
+				<h3>Dømmesmoen Sunshine</h3>
+				<div class="col1">
+
+					<img class="imgTour"src="images/domesmoeni.jpg"alt="dømmesmoen tracking tourguides">
+
+				</div>
+				<div class="col2">
+					<section class=location>
+						<input type="checkbox" class="checkboxDropdown" id="dømmesmoen-input-location" checked="checked">
+						<label class="labelTour" for ="dømmesmoen-input-location" id="dømmesmoen-label-location">Map of Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<iframe  class="frameLocation hide " src="https://www.google.com/maps/embed?pb=!1m46!1m12!1m3!1d16750.94492080888!2d8.548591136711288!3d58.34502632703538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m31!3e1!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!4m5!1s0x4647ee744394a979%3A0x968a3f5c765ea098!2sD%C3%B8mmesmoen%2C+Grimstad!3m2!1d58.354650299999996!2d8.5765998!4m5!1s0x4647ee02c3713c89%3A0xba0748cfae96eae2!2sRoresanden%2C+Grimstad!3m2!1d58.3514444!2d8.5372978!4m5!1s0x4647ee430faa83ef%3A0xb655434e819c5787!2sUniversitetet+i+Agder%2C+Jon+Lilletunsvei%2C+Grimstad!3m2!1d58.334233899999994!2d8.576710499999999!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!5e0!3m2!1sno!2sno!4v1541163087624" frameborder="0"  allowfullscreen></iframe>
+					</section>
+
+					<section class="tourInfo">
+						<input class="checkboxDropdown"type="checkbox" id="dømmesmoen-input-info" checked="checked">
+						<label class="labelTour" for ="dømmesmoen-input-info" id="dømmesmoen-label-info">Tour Info <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li><b>Distance:</b> 11.3 km</li>
+							<li><b>Tour Available:</b>	Thursdays</li>
+							<li><b>Type of Terrain:</b> Road</li>
+							<li><b>Difficulty level:</b> Avarge</li>
+						</ul>
+					</section>
+					<section class="gear">
+						<input class="checkboxDropdown"type="checkbox" id="dømmesmoen-input-gear" checked="checked">
+						<label class="labelTour" for ="dømmesmoen-input-gear" id="dømmesmoen-label-gear">Gear included <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li>Nakamura Road Bike</li>
+							<li>Helmet</li>
+							<li>Cyckling gloves</li>
+							<li>Water</li>
+						</ul>
+					</section>
+
+
+				</div>
+				<div class="col3">
+					<input class="checkboxDropdown"type="checkbox" id="dømmesmoen-input-about" checked="checked">
+					<label class="labelTour" for ="dømmesmoen-input-about" id="dømmesmoen-label-about">About Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					</p>
+					<div class="listHighlights">
+						<ul>
+							<li><b>Duration:</b> 1 hour 20 min</li>
+							<li><b>Location:</b> Grimstad &#8644; Dømmesmoen</li>
+							<li><b>Price:</b> 250NOK</li>
+						</ul>
+						<input class="buttons" type="submit" value="BOOK" id="button-book">
+					</div>
+				</div>
+			</section>
+			<section class="tourGuides" id="fjære">
+
+				<h3>Fjære the forgotten Road</h3>
+				<div class="col1">
+
+					<img class="imgTour" src="images/fjere.jpg" alt="Fjære tracking tourguides">
+
+				</div>
+				<div class="col2">
+					<section class=location>
+						<input type="checkbox" class="checkboxDropdown" id="fjære-input-location" checked="checked">
+						<label class="labelTour" for ="fjære-input-location" id="fjære-label-location">Map of Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<iframe  class="frameLocation hide " src="https://www.google.com/maps/embed?pb=!1m38!1m12!1m3!1d33472.91687894191!2d8.584401519325343!3d58.37557042750143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m23!3e1!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!4m5!1s0x4647edc64a80f8db%3A0xf688d1c89e1f76b!2sFj%C3%A6reheia%2C+Tauleveien%2C+Grimstad!3m2!1d58.3776194!2d8.5933538!4m3!3m2!1d58.4030579!2d8.64259!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!5e0!3m2!1sno!2sno!4v1541163572922"  frameborder="0"  allowfullscreen></iframe>
+
+					</section>
+
+					<section class="tourInfo">
+						<input class="checkboxDropdown"type="checkbox" id="fjære-input-info" checked="checked">
+						<label class="labelTour" for ="fjære-input-info" id="fjære-label-info">Tour Info <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li><b>Distance:</b> 20 km</li>
+							<li><b>Tour Available:</b>	Wedensday</li>
+							<li><b>Type of Terrain:</b> Road/Dirt Road</li>
+							<li><b>Difficulty level:</b> Averge</li>
+						</ul>
+					</section>
+					<section class="gear">
+						<input class="checkboxDropdown"type="checkbox" id="fjære-input-gear" checked="checked">
+						<label class="labelTour" for ="fjære-input-gear" id="fjære-label-gear">Gear included <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li>Nakamura Hybrid bike</li>
+							<li>Helmet</li>
+							<li>Cyckling gloves</li>
+							<li>Water</li>
+							<li>Snack bar</li>
+						</ul>
+					</section>
+
+
+				</div>
+				<div class="col3">
+					<input class="checkboxDropdown"type="checkbox" id="fjære-input-about" checked="checked">
+					<label class="labelTour" for ="fjære-input-about" id="fjære-label-about">About Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					</p>
+					<div class="listHighlights">
+						<ul>
+							<li><b>Duration:</b> 2 hours</li>
+							<li><b>Location:</b> Grimstad &#8644; Fjæreheia</li>
+							<li><b>Price:</b> 350NOK</li>
+						</ul>
+						<input class="buttons" type="submit" value="BOOK" id="button-book">
+					</div>
+				</div>
+			</section>
+			<section class="tourGuides" id="marivold">
+
+				<h3>Marivold the Creepy Bridge</h3>
+				<div class="col1">
+
+					<img class="imgTour" src="images/reddal.jpg" alt="Marivold tracking tourguides">
+
+				</div>
+				<div class="col2">
+					<section class=location>
+						<input type="checkbox" class="checkboxDropdown" id="marivold-input-location" checked="checked">
+						<label class="labelTour" for ="marivold-input-location" id="marivold-label-location">Map of Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<iframe  class="frameLocation hide " src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d16749.047666367813!2d8.598453086721273!3d58.34902717456836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e1!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!4m5!1s0x4647ee8d0b283da7%3A0x3b25a932b4d2e2b1!2sMarivold+Camping+AS%2C+Grimstad!3m2!1d58.3359915!2d8.6137962!4m5!1s0x4647ee6378200a3f%3A0x81c382f9c897a052!2sGrimstad!3m2!1d58.3447019!2d8.5948668!5e0!3m2!1sno!2sno!4v1541164062894"  frameborder="0"  allowfullscreen></iframe>
+					</section>
+					<section class="tourInfo">
+						<input class="checkboxDropdown"type="checkbox" id="marivold-input-info" checked="checked">
+						<label class="labelTour" for ="marivold-input-info" id="marivold-label-info">Tour Info <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li><b>Distance:</b> 16.5 km</li>
+							<li><b>Tour Available:</b>	Fridays</li>
+							<li><b>Type of Terrain:</b> Offroad</li>
+							<li><b>Difficulty level:</b> Hard</li>
+						</ul>
+					</section>
+					<section class="gear">
+						<input class="checkboxDropdown"type="checkbox" id="marivold-input-gear" checked="checked">
+						<label class="labelTour" for ="marivold-input-gear" id="marivold-label-gear">Gear included <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+						<ul class="hide">
+							<li>Nakamura Offroad Bike</li>
+							<li>Helmet</li>
+							<li>Cyckling gloves</li>
+							<li>Water</li>
+							<li>2xSnack bars</li>
+						</ul>
+					</section>
+
+
+				</div>
+				<div class="col3">
+					<input class="checkboxDropdown"type="checkbox" id="marivold-input-about" checked="checked">
+					<label class="labelTour" for ="marivold-input-about" id="marivold-label-about">About Tour <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					</p>
+					<div class="listHighlights">
+						<ul>
+							<li><b>Duration:</b> 2 hours 30 min</li>
+							<li><b>Location:</b> Grimstad &#8644; Marivold</li>
+							<li><b>Price:</b> 400NOK</li>
+						</ul>
+						<input class="buttons" type="submit" value="BOOK" id="button-book">
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footerCol">
+				<h2>Sign inn to our newsletter!</h2>
+
+				<input type="text" name="newsletter-text" id="newsletter-text" placeholder="Write your mail..."><br>
+				<input class="buttons" type="submit" id="newsletter-submit" value="Send">
+
+
+			</div>
+			<div class="footerCol">
+				<ul id="footer-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="tourguides.html">Tour Guides</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<p>&copy;Copyright 2018 All rights reserved</p>
+		</div>
+	</footer>
+	<script src="scripts/tour.js"></script>
+</body>
+</html>

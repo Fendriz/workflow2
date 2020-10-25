@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content= "Torgeir Haugum">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.2">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<title>Re-Cycle | Welcome</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="container" id="hamburger-container">
+				<a class="logo" href="index.html"><h1><span id="logo-span-re">Re</span>-<span id ="logo-span-cycle">Cycle</span></h1></a>
+
+				<input type="checkbox" id="hamburger" checked="checked">
+				<label class="labelHamburger" for ="hamburger" id="label-hamburger">&#9776;</label>
+				<label class="labelHamburger"for ="hamburger" id="label-exit">&#x2716;	</label>
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<input class="checkboxMenu"type="checkbox" id="menu-input-tourguide" checked="checked">
+						<label class="labelMenu" for ="menu-input-tourguide" id="menu-label-tourguide">Tour Guides</label>
+
+						<a id="menu-tourguide"href="tourguides.html">Tour Guides</a>
+
+						<ul class="hide">
+							<li><a href="tourguides.html">Landvik Track</a></li>
+							<li><a href="tourguides.html#dømmesmoen">Dømmesmoen Sunshine</a></li>
+							<li><a href="tourguides.html#fjære">Fjære forgotten Road</a></li>
+							<li><a href="tourguides.html#marivold">Marivold the Creepy Bridge</a></li>
+						</ul>
+					</li>
+					<li><a class="active" href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+
+			<section class="about">
+				<h3>About Us</h3>
+				<section>
+					<input class="checkboxDropdown"type="checkbox" id="about-input-what " checked="checked">
+					<label class="labelAbout" for ="about-input-what " id="about-label-what ">What we do <span class="spanOpen">&#9650;</span><span class="spanClose">&#9660;</span></label>
+					<p class="open">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occae</p>
+				</section>
+				<section>
+					<input class="checkboxDropdown"type="checkbox" id="about-input-service" checked="checked">
+					<label class="labelAbout" for ="about-input-service" id="about-label-service">Our Service <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</section>
+				<section>
+					<input class="checkboxDropdown"type="checkbox" id="about-input-history" checked="checked">
+					<label class="labelAbout" for ="about-input-history" id="about-label-history">Company History <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehen id est laborum.</p>
+				</section>
+				<section>
+					<input class="checkboxDropdown"type="checkbox" id="about-input-information" checked="checked">
+					<label class="labelAbout" for ="about-input-information" id="about-label-information">Company Information <span class="spanClose">&#9650;</span><span class="spanOpen">&#9660;</span></label>
+					<p class="hide">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit </p>
+				</section>
+			</section>
+		</div>
+	</main>
+		<footer>
+			<div class="container">
+				<div class="footerCol">
+					<h2>Sign inn to our newsletter!</h2>
+
+					<input type="text" name="newsletter-text" id="newsletter-text" placeholder="Write your mail..."><br>
+					<input class="buttons" type="submit" id="newsletter-submit" value="Send">
+
+
+				</div>
+				<div class="footerCol">
+					<ul id="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="tourguides.html">Tour Guides</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+				<p>&copy;Copyright 2018 All rights reserved</p>
+			</div>
+		</footer>
+		<script src="scripts/tour.js"></script>
+	</body>
+	</html>

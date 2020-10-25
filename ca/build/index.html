@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content= "Torgeir Haugum">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=1.2">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<title>Re Cycle | Welcome</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="container" id="hamburger-container">
+				<a class="logo" href="index.html"><h1><span id="logo-span-re">Re</span>-<span id ="logo-span-cycle">Cycle</span></h1></a>
+
+				<input type="checkbox" id="hamburger" checked="checked">
+				<label class="labelHamburger" for ="hamburger" id="label-hamburger">&#9776;</label>
+				<label class="labelHamburger"for ="hamburger" id="label-exit">&#x2716;	</label>
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<input class="checkboxMenu"type="checkbox" id="menu-input-tourguide" checked="checked">
+						<label class="labelMenu" for ="menu-input-tourguide" id="menu-label-tourguide">Tour Guides</label>
+
+						<a id="menu-tourguide"href="tourguides.html">Tour Guides</a>
+
+						<ul class="hide">
+							<li><a href="tourguides.html"  >Landvik Track</a></li>
+							<li><a href="tourguides.html#dømmesmoen" >Dømmesmoen Sunshine</a></li>
+							<li><a href="tourguides.html#fjære" >Fjære forgotten Road</a></li>
+							<li><a href="tourguides.html#marivold" >Marivold the Creepy Bridge</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section id="background-img"></section>
+
+		<div class="container">
+			<div class="FrontPage">
+
+				<h3>Guided cycling in Grimstad!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehender it</p>
+				<h4>Check out our tours:</h4>
+
+			<div class= flexContainer>
+				<section class="landvik">
+
+					<a href="tourguides.html">
+					<img class="imgTour" src="images/landvik.jpg" alt="landvik tracking frontpage">
+					</a>
+					<a class="buttons"href="tourguides.html">Landvik tracking</a>
+					<p><b>Duration:</b> 1 hours 30 min <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+
+				</section >
+				<section class="dømmesmoen">
+					<a href="tourguides.html#dømmesmoen">
+					<img class="imgTour" src="images/domesmoeni.jpg"alt="dømmesmoen tracking frontpage">
+					</a>
+					<a class="buttons"href="tourguides.html#dømmesmoen">Dømmesmoen Sunshine</a>
+					<p><b>Duration:</b> 1 hours 20 min <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+
+				</section >
+				<section class="fjære">
+					<a href="tourguides.html#fjære">
+					<img class="imgTour" src="images/fjere.jpg" alt="Fjære tracking frontpage">
+					</a>
+					<a class="buttons"href="tourguides.html#fjære">Fjære the forgotten Road</a>
+					<p><b>Duration:</b> 2 hours <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+
+				</section >
+				<section class="marivold" src="images/reddal.jpg" alt="Marivold tracking frontpage">
+					<a href="tourguides.html#marivold" >
+					<img class="imgTour" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Reddal_canal%2C_Grimstad.JPG">
+					</a>
+					<a class="buttons" href="tourguides.html#marivold">Marivold the Creepy Bridge</a>
+					<p><b>Duration:</b> 2 hours 30 min <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					</p>
+
+				</section>
+			</div>
+
+			</div>
+		</div>
+
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="footerCol">
+				<h2>Sign inn to our newsletter!</h2>
+
+				<input type="text" name="newsletter-text" id="newsletter-text" placeholder="Write your mail..."><br>
+				<input class="buttons" type="submit" id="newsletter-submit" value="Send">
+
+
+			</div>
+			<div class="footerCol">
+				<ul id="footer-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="tourguides.html">Tour Guides</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<p>&copy;Copyright 2018 All rights reserved</p>
+		</div>
+	</footer>
+	<script src="scripts/tour.js"></script>
+
+
+</body>
+</html>
